@@ -97,12 +97,3 @@ Output:
 Writes all unique subdomains to an output file
 One subdomain per line
 Code Structure
-
-├── main.go
-    ├── addToSubdomainsList()     // Adds subdomain to global map
-    ├── crtProcessResponse()       // Processes individual HTML nodes
-    ├── crtEnumerateResponse()     // Recursively traverses HTML DOM
-    ├── crtQuery()                 // Queries crt.sh
-    ├── virusTotalQuery()          // Queries VirusTotal API
-    └── main()                     // Orchestrates execution
-

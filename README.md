@@ -9,14 +9,6 @@ This tool queries two popular certificate transparency and threat intelligence s
 crt.sh - Certificate Transparency logs
 VirusTotal - Threat intelligence platform (requires API key)
 
-# Features
-
-✅ Passive subdomain enumeration
-✅ Multiple data sources for comprehensive results
-✅ Deduplication of discovered subdomains
-✅ Simple output to file
-✅ Custom HTTP headers for requests
-✅ TLS certificate verification bypass (for testing environments)
 # Prerequisites
 
 Go 1.16 or higher
